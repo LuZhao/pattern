@@ -1,4 +1,4 @@
-package com.newtec.cmd.d;
+package com.zhao.cmd.d;
 
 public class ConcreteCommand extends Command{
 

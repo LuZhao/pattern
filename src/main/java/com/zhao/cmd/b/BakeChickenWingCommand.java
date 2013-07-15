@@ -1,4 +1,4 @@
-package com.newtec.cmd.c;
+package com.zhao.cmd.b;
 
 public class BakeChickenWingCommand extends Command {
 
@@ -9,10 +9,5 @@ public class BakeChickenWingCommand extends Command {
 	@Override
 	public void excuteCommand() {
 		barbecuer.BakeChickenWing();
-	}
-
-	@Override
-	public String toString() {
-		return "BakeChickenWingCommand [barbecuer=" + barbecuer + "]";
 	}
 }

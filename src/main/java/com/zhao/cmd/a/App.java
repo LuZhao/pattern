@@ -1,4 +1,4 @@
-package com.newtec.cmd.a;
+package com.zhao.cmd.a;
 
 /**
  * 客户端调用 

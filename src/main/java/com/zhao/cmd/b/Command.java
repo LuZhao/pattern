@@ -1,4 +1,4 @@
-package com.newtec.cmd.c;
+package com.zhao.cmd.b;
 
 /**
  * 抽象命令
@@ -15,9 +15,4 @@ public abstract class Command {
 
 	/** 执行命令 */
 	public abstract void excuteCommand();
-
-	@Override
-	public String toString() {
-		return "Command [barbecuer=" + barbecuer + "]";
-	}
 }

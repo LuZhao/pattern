@@ -1,4 +1,4 @@
-package com.newtec.cmd.c;
+package com.zhao.cmd.c;
 
 /**
  * 烧烤店事先就照好了烤肉厨师、服务员、和烤肉菜单。就等客户上门？

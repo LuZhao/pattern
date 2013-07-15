@@ -1,4 +1,4 @@
-package com.newtec.cmd.b;
+package com.zhao.cmd.b;
 
 /**
  * 服务员

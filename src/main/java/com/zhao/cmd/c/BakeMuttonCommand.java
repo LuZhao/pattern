@@ -1,4 +1,4 @@
-package com.newtec.cmd.b;
+package com.zhao.cmd.c;
 
 /**
  * 烤羊肉串命令
@@ -15,5 +15,8 @@ public class BakeMuttonCommand extends Command{
 	public void excuteCommand() {
 		barbecuer.BakeMutton();
 	}
-
+	@Override
+	public String toString() {
+		return "BakeMuttonCommand [barbecuer=" + barbecuer + "]";
+	}
 }

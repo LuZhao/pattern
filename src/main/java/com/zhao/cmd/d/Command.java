@@ -1,4 +1,4 @@
-package com.newtec.cmd.d;
+package com.zhao.cmd.d;
 
 public abstract class Command {
 	protected Receiver receiver;
