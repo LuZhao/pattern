@@ -1,4 +1,4 @@
-package com.zhao.cmd.d;
+package com.zhao.cmd.g.yanmo.example1;
 
 /**
  * 调用者对象

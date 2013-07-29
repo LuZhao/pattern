@@ -1,4 +1,4 @@
-package com.zhao.cmd.d;
+package com.zhao.cmd.g.yanmo.example1;
 
 public class App {
 	public static void main(String[] args) {
@@ -9,6 +9,7 @@ public class App {
 		// 创建Invoker，把命令设置进去
 		Invoker invoker = new Invoker();
 		invoker.setCommand(command);
+		
 		invoker.executeCommand();
 	}
 }
