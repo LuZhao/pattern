@@ -24,8 +24,10 @@ public class App {
 		box = new Box();
 		box.setOpenCommand(resetCommand);
 		box.setResetCommand(openCommand);
+		System.out.println("-->错误配置");
+		System.out.println("--|-->开机");
 		box.openButtonPressed();
-		System.out.println("==============");
+		System.out.println("--|-->重启");
 		box.resetButtonPressed();
 	}
 }

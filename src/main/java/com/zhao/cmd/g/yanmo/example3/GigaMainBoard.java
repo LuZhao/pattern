@@ -13,18 +13,18 @@ public class GigaMainBoard implements MainBoarApi {
 	 */
 	@Override
 	public void open() {
-		System.err.println("技嘉主板现在正在开机，请等候");
-		System.err.println("接通电源...");
-		System.err.println("设备检查...");
-		System.err.println("装载系统...");
-		System.err.println("机器正常运转起来......");
-		System.err.println("机器已经正常打开，请操作");
-	}
+		System.out.println("技嘉主板现在正在开机，请等候");
+		System.out.println("接通电源...");
+		System.out.println("设备检查...");
+		System.out.println("装载系统...");
+		System.out.println("机器正常运转起来......");
+		System.out.println("机器已经正常打开，请操作");
+	}          
 
 	@Override
 	public void reset() {
-		System.err.println("技嘉主板现在正在重启机器，请稍候...");
-		System.err.println("机器正常打开，请操作...");
+		System.out.println("技嘉主板现在正在重启机器，请稍候...");
+		System.out.println("机器正常打开，请操作...");
 	}
 
 }
